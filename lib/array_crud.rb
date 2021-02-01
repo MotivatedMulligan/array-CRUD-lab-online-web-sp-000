@@ -7,14 +7,12 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-def push
   "#{array}"<<"#{element}"
-end
 end
 
 def add_element_to_start_of_array(array, element)
 add_element_to_end_of_array.unshift("#{element}")
-puts add_element_to_end_of_array.inspect
+
 end
 
 def remove_element_from_end_of_array(array)
